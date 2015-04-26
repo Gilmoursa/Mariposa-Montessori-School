@@ -1,0 +1,134 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+body {
+  padding-bottom: 40px;
+  background: url(../images/upfeathers.png);
+
+}
+h2{
+    font-family: 'Gloria Hallelujah', cursive;
+  color: rgba(240, 168, 30, 1);
+}
+.jumbotron p{
+  text-align: right;
+}
+.jumbotron img{
+  border-width: 5px;
+  color: rgba(240, 168, 30, 1);
+}
+.jumbotron, .container{
+  width:90%;
+  margin: 0 auto;
+  background:  rgba(225, 225, 210, 1);
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+  background: rgba(141, 188, 71, 1);
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: rgba(139, 60, 150, 1);;
+}
+.navbar-inverse .navbar-nav>.active>a{
+  background: rgba(240, 168, 30, 1);
+}
+.navbar-inverse .navbar-brand {
+ font-family: 'Gloria Hallelujah', cursive;
+ color: rgba(139, 60, 150, 1);
+ font-size: 24px;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+  background: rgba(139, 60, 150, 1);
+}
+
+
+/* CONCEPTS CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.concepts .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.concepts h2 {
+  font-weight: normal;
+}
+.concepts .col-lg-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0px;
+  height: 2px; /* Space out the Bootstrap <hr> more */
+  background: rgba(141, 188, 71, 1);
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.featurette-heading, .jumbotron h1{
+ font-family: 'Gloria Hallelujah', cursive;
+ color: rgba(139, 60, 150, 1);
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* The navbar becomes detached from the top, so round corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}

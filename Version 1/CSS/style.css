@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+h1 {
+  font-size: 44px;
+}
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: rgba(139, 60, 150, 1);
+  font-size: 30px;
+}
+h3 {
+  color: rgba(41, 73, 126, 1);
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 20px;
+}
+p {
+  font-size: 16px; /*px, pt, %, em */
+  line-height: 1.5em;
+  font-weight: 300;
+}
+a{
+  color: rgba(248, 246, 229, 1);
+  text-decoration: none;
+  padding-right: 25px;
+  font-weight: 500;
+}
+a:hover{
+  color: rgba(139, 60, 150, 1);
+  text-decoration: none;
+}
+#all{
+  background: rgba(225, 225, 210, 1);
+}
+#main_text{
+  background: rgba(248, 246, 229, 1);
+  width: 85%;
+  padding: 25px;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+#top_nav{
+  color: rgba(248, 246, 229, 1);
+  line-height: .5em;
+  background: rgba(141, 188, 71, 1);
+  height: 15px;
+  padding: 10px;
+  padding-top: 20px;
+  position: fixed;
+  width: 100%;
+  text-align: right;
+}
+#logo {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: rgba(240, 168, 30, 1);
+  line-height: .75em;
+  background: rgba(248, 246, 229, 1);
+  top: 40px;
+  padding-left: 30px;
+  position:fixed;
+  width: 100%;
+}
+.image{
+  width: 100%;
+  padding-top: 100px;
+}
+.details{
+  color: rgba(248, 246, 229, 1);
+  line-height: .5em;
+  background: rgba(141, 188, 71, 1);
+  height: 150px;
+  width: 100%;
+  font-weight: bold;
+  display:block;
+}
+.details h3{
+  font-weight: bold;
+  color: rgba(139, 60, 150, 1);
+}
+#contact{
+  float: left;
+  margin-left: 20px;
+  background: rgba(141, 188, 71, 1);
+}
+#links{
+  float: left;
+  background: rgba(141, 188, 71, 1);
+}
+#bottom_nav{
+  padding-top: 10px;
+  text-align: center;
+  clear: both;
+  background: rgba(240, 168, 30, 1);
+  color: rgba(139, 60, 150, 1);
+}
+#bottom_nav a{
+  text-decoration: none;
+  color: rgba(139, 60, 150, 1);
+  font-weight: bold;
+}
+#bottom_nav a:hover{
+  color: rgba(248, 246, 229, 1);
+}
+
